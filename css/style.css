@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1A1B1D;
+   
+    justify-content: center;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+.container {
+    border: 0.5px solid #565656;
+    border-top: 0;
+    border-bottom: 0;
+    width: 1048px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    
+   
+}
+
+.header-container {
+
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.header__nav {
+    width: 100%;
+}
+
+.header-line {
+    width: 100%;
+    height: 1px;
+    border: 0.5px solid #565656;
+    position: absolute;
+    z-index: 3;
+    top: 176px;
+   
+
+}
+
+.header__list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu__items a {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-menu__Classic a {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 134.783px;
+    line-height: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.section-main {
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    
+
+
+}
+
+.section-container {
+    height: 383px;
+    display: flex;
+    align-items: end;
+    flex-direction: row-reverse;
+
+}
+
+.section__left {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 50%;
+}
+
+.section__right {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 113px;
+
+
+
+}
+
+.date {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.logo-brend {
+    position: absolute;
+    top: 77px;
+    color: #FFFFFF;
+    left: 0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 49.1704px;
+    line-height: 57px;
+
+}
+
+.container2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    width: 100%;
+}
